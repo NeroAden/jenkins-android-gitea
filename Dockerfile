@@ -1,4 +1,4 @@
-FROM jenkins
+FROM jenkins/jenkins:lts
 
 ENV ANDROID_SDK_VERSION 30
 ENV ANDROID_HOME /opt/android/sdk
